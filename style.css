@@ -26,7 +26,7 @@ input, button{
 
 input{
     border-color: #4A0385;
-    outline-color: white;
+    outline-color: black;
 }
 
 #result, #result2{
