@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Manejo de usuarios</title>
+        <link rel="stylesheet" href="style.css"> 
+        <script src="interactivity.js"></script>
+    </head>
+
+    <body>
+        <h1>Manejo de Usuarios</h1>
+        
+        <div id="container">
+            <label for="list">Agregar un usuario (dar enter)</label>
+            <input type="text" id="list" onchange="array()">
+            <div id="result"></div>
+
+            <label for="position">Escribe el nombre del usuario para buscar su posicion (dar enter)</label>
+            <input type="text" id="position" onchange="index(this)">
+            <p id="result2"></p>
+
+            <button onclick="reset()">Resetear</button>
+        </div>
+    </body>
+</html>

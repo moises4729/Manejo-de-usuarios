@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #DEE2DB;
+    font-size: 20px;
+}
+
+body{
+    background-color: #4A0385;
+}
+
+h1{
+    color: #90E555;
+    text-align: center;
+    font-size: 35px;
+}
+
+#container{
+    margin-top: 25px;
+}
+
+input, button{
+    color: #000000;
+}
+
+input{
+    border-color: #4A0385;
+    outline-color: white;
+}
+
+#result, #result2{
+    color: #F8B85C;
+    margin: 13px 0 13px 0;
+}
+
+button{
+    width: 150px;
+    background: linear-gradient(#FA84FF, white);
+}
